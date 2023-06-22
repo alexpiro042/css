@@ -1,0 +1,14 @@
+.text--bold{
+    color: aquamarine
+}
+
+.child {
+    border: 2px solid blueviolet;
+}
+
+a[href="#blog"] {
+    color: seagreen;
+}
+/* #blog {
+    color: seagreen;
+} */
