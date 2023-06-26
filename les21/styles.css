@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Cuprum";
+    font-weight: bold;
+    font-style: normal;
+    src: local("Cuprum-Bold"),
+        url("../les21/fonts/Cuprum-Bold.woff2") format("woff2"),
+        url("../les21/fonts/Cuprum-Bold.woff") format("woff"),
+        url("../les21/fonts/Cuprum-Bold.eot") format("eot");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cuprum";
+    font-weight: 400; 
+    font-style: normal;
+    src: local("Cuprum-Regular"),
+        url("../les21/fonts/Cuprum-Regular.woff2") format("woff2"),
+        url("../les21/fonts/Cuprum-Regular.woff") format("woff"),
+        url("../les21/fonts/Cuprum-Regular.eot") format("eot");
+    font-display: swap;
+}
+
+.about {
+    font-family: 'Alice', serif;
+    font-size: 3rem;
+}
+
+.maggy {
+    font-family: "Cuprum";
+    font-weight: bold;
+    font-size: 25px;
+}
