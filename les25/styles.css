@@ -1,0 +1,17 @@
+.block {
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    transform: translate(.1vw, 0) rotate(-30deg);
+    position: relative;
+    left: 50vh;
+    top: 50vh;
+}
+
+h1 {
+    position: relative;
+    left: 25%;
+    top: 25%;
+    font-size: 3em;
+}
