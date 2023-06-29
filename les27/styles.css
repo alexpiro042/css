@@ -1,0 +1,24 @@
+.text {
+    font-size: 4em;
+    color: #000;
+}
+
+
+@keyframes text-color {
+    from {
+        font-size: 4em;
+        color: #000;
+    }
+    to {
+        font-size: 3em;
+        color: crimson;
+    }
+}
+
+.text {
+    animation-name: text-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
