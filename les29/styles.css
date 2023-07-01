@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(orange, black 85%)
+}
+
+h1 {
+    color: crimson;
+    font-size: 5em;
+}
+
+.wrapper {
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid rgb(32, 71, 116);
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.grid__item {
+    border: 3px solid white;
+}
+
+.grid {
+    display: grid;
+    grid-template: 
+    auto auto / 
+    1fr 1fr minmax(100px, 200px) 1fr 1fr;
+}
+
+.grid__item {
+    font-size: 1em;
+    text-align: center;
+    background-color: aquamarine;
+}
