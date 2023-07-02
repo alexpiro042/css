@@ -1,0 +1,41 @@
+body {
+    background-color: #4b2424;
+}
+
+.wrap {
+    position: relative;
+    display: flex;
+    width: 440px;
+    height: 40px;
+    background-color: darkseagreen;
+    padding: 50px;
+    border: 2px solid yellow;
+}
+
+.title {
+    position: absolute;
+    display: inline-flex;
+    font-size: 2em;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.title::before {
+    content: "";
+    display: inline-block;
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+    margin-right: 10px;
+}
+
+.title::after {
+    content: "";
+    display: inline-block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+    margin-left: 10px;
+}
